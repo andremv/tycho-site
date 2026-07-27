@@ -1,0 +1,33 @@
+baseURL = 'https://tychoengineering.co.uk/'
+locale = 'en-gb'
+title = 'TychoEngineering'
+theme = 'archie'
+copyright = '© TychoEngineering'
+pygmentsstyle = 'monokai'
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+  mode = 'auto'
+  useCDN = false
+  subtitle = 'Engineering the future'
+
+[[params.social]]
+  name = 'GitHub'
+  icon = 'github'
+  url = 'https://github.com/andreimv/tycho-site'
+
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 1
+
+[[menu.main]]
+  name = 'Posts'
+  url = '/posts'
+  weight = 2
+
+[[menu.main]]
+  name = 'About'
+  url = '/about'
+  weight = 3
